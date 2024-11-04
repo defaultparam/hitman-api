@@ -1,6 +1,3 @@
-from pydantic import BaseModel, Field
-from typing import Optional, List, Dict
-from uuid import UUID
 from ..challenge import *
 from .response_dto import Response
 

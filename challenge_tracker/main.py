@@ -1,14 +1,12 @@
 from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
-import os
-
 from .routers import config_router
 
 
 app = FastAPI(
 	title='Challenge Tracker', 
 	description="API documentation for Hitman WoA challenge tracker.", 
-	version='1.0.0'
+	version='1.0.0',
+	swagger_ui_parameters={"syntaxHighlight": "true"}
 	)
 
 

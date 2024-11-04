@@ -1,6 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
 from uuid import UUID
-from ..models.challenge import Challenge
 from ..models.dtos.challenge_create_dto import ChallengeCreateRequest, ChallengeCreateResponse
 from ..models.dtos.challenge_update_dto import ChallengeUpdateRequest, ChallengeUpdateResponse
 from ..services.config_service import ConfigService

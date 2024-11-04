@@ -1,9 +1,7 @@
 import sqlite3
 from uuid import UUID
-from ..models.challenge import Challenge
 from ..models.dtos.challenge_create_dto import ChallengeCreateRequest
 from ..models.dtos.challenge_update_dto import ChallengeUpdateRequest
-import json
 
 class ConfigService:
     def __init__(self, db_path="database.db"):

@@ -1,4 +1,4 @@
-from pydantic import BaseModel, constr, Field, StrictBool, StrictStr
+from pydantic import BaseModel, Field, StrictStr
 from typing import Optional, List, Dict
 from ..challenge import DestinationEnum, CategoryEnum, Challenge
 from .response_dto import Response
