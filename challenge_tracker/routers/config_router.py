@@ -4,7 +4,7 @@ from ..models.dtos.challenge_create_dto import ChallengeCreateRequest, Challenge
 from ..models.dtos.challenge_update_dto import ChallengeUpdateRequest, ChallengeUpdateResponse
 from ..services.config_service import ConfigService
 
-router = APIRouter(prefix='/challenges', tags=["Challenges Configuration"])
+router = APIRouter(prefix='/challenges', tags=["Challenge Configurations"])
 
 config_service = ConfigService()
 
