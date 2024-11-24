@@ -19,7 +19,7 @@ python3 -m venv .venv
 
 Clone the repository
 ```bash
-git clone <URL>
+git clone <THIS_URL>
 ```
 
 Install the dependencies
